@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <!-- font awesome -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
+    <!-- les typo google font  -->
+    <link href="https://fonts.googleapis.com/css?family=Anton|Lemonada:300,400|Oswald:300,400" rel="stylesheet"> 
+    <!-- la description qui s'affiche sur un résultat de recherche google -->
+    <meta name="description" content="Site de la phase de KHAN Akbar LePoleS Pantin 2018/2019">
+    <!-- mots clés pour le référencements (moins utilisé de nos jours) -->
+    <meta name="keywords" content="HTML, CSS,Akbar KHAN, LePoleS">
+    <!--meta pour l'auteur du site -->
+    <meta name="author" content="Akbar KHAN">
+    <title>Akbar KHAN : Accueil</title>
+    <link href="css/style.css" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <div id="logo">
+            <a href="#logo">
+                <button type="button"><i class="fas fa-arrow-circle-up" aria-hidden="true"></i></button>
+            </a>
+            <img src="img/logo.png" alt="logo">
+        </div><!-- fin id logo -->
+        <div id="slogan">
+            <a href="index.html" title="Mon premier sit en HTML accueil">
+                <h1>Mon premier site en HTML5 et CSS3</h1>
+            </a>
+        </div>
+        <div id="social">
+            <a href="https://www.instagram.com" target="_blank"><i class="fab fa-instagram"></i></a>
+            <a href="https://www.facebook.com" target="_blank"><i class="fab fa-facebook"></i></a>
+        </div>
+        <div class="clear"></div>
+    </header>
+
+    <nav>
+        <div class="ancreNav">
+            <a href="index.html" title="index">Accueil</a>
+            <a href="texte.html" title="texte">Texte</a>
+            <a href="selecteur.html" title="selecteur">Selecteur</a>
+            <a href="image.html" title="Image">Image</a>
+            <a href="position.html" title="Position">Position</a>
+            <a href="zoning.html" title="Zoning">Zoning</a>
+            <a href="tableau.html" title="Tableau" class="active">Tableau</a>
+            <a href="liste.html" title="Liste">Liste</a>
+            <a href="lien_menu.html" title="Lien">Lien</a>
+            <a href="formulaire.html" title="Formulaire">Formulaire</a>
+            <a href="multimedia.html" title="Multimédia">Multimédia</a>
+            <a href="animation.html" title="Animation">Animation</a>
+        </div>
+    </nav>
+    <main><!-- id main -->
+       <h2>Un tableau</h2>
+       <section class="tableau">
+            <table>
+                <!-- la légende du tableau -->
+                <caption> Vols Paris <i class="fa fa-plane"></i> Rome</caption>
+                <thead>
+                    <tr>
+                        <td></td>
+                        <td>02/08/2017</td>
+                        <td>03/08/2017</td>
+                        <td>05/08/2017</td>
+                    </tr>
+                </thead>
+                <tfoot>
+                    <tr>
+                        <td></td>
+                        <td>02/08/2017</td>
+                        <td>03/08/2017</td>
+                        <td>05/08/2017</td>
+                    </tr>
+                </tfoot>
+                <tbody>
+                    <tr>
+                        <td rowspan="2">Air France</td>
+                        <td>Départ 10 h - Arrivé 13 h</td>
+                        <td>Départ 15 h - Arrivé 18 h</td>
+                        <td>Départ 17 h - Arrivé 20 h</td>
+                    </tr>
+                    <tr>
+                        <td>200 €</td>
+                        <td>180 €</td>
+                        <td>170 €</td>
+                    </tr>
+                    <tr>
+                        <td rowspan="2">Alitalia</td>
+                        <td>Départ 6 h - Arrivé 9 h</td>
+                        <td>Départ 13 h - Arrivé 16 h</td>
+                        <td>Départ 21 h - Arrivé 00 h</td>
+                    </tr>
+                    <tr>
+                        <td>150 €</td>
+                        <td>160 €</td>
+                        <td>150 €</td>
+                    </tr>
+                </tbody>
+            </table>
+       </section>
+    </main><!-- fin id main -->
+    <footer>
+ 
+    </footer>
+</body>
+</html>

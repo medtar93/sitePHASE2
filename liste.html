@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <!-- font awesome -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
+    <!-- les typo google font  -->
+    <link href="https://fonts.googleapis.com/css?family=Anton|Lemonada:300,400|Oswald:300,400" rel="stylesheet"> 
+    <!-- la description qui s'affiche sur un résultat de recherche google -->
+    <meta name="description" content="Site de la phase de KHAN Akbar LePoleS Pantin 2018/2019">
+    <!-- mots clés pour le référencements (moins utilisé de nos jours) -->
+    <meta name="keywords" content="HTML, CSS,Akbar KHAN, LePoleS">
+    <!--meta pour l'auteur du site -->
+    <meta name="author" content="Akbar KHAN">
+    <title>Akbar KHAN : Accueil</title>
+    <link href="css/style.css" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <div id="logo">
+            <a href="#logo">
+                <button type="button"><i class="fas fa-arrow-circle-up" aria-hidden="true"></i></button>
+            </a>
+            <img src="img/logo.png" alt="logo">
+        </div><!-- fin id logo -->
+        <div id="slogan">
+            <a href="index.html" title="Mon premier sit en HTML accueil">
+                <h1>Mon premier site en HTML5 et CSS3</h1>
+            </a>
+        </div>
+        <div id="social">
+            <a href="https://www.instagram.com" target="_blank"><i class="fab fa-instagram"></i></a>
+            <a href="https://www.facebook.com" target="_blank"><i class="fab fa-facebook"></i></a>
+        </div>
+        <div class="clear"></div>
+    </header>
+
+    <nav>
+        <div class="ancreNav">
+            <a href="index.html" title="index">Accueil</a>
+            <a href="texte.html" title="texte">Texte</a>
+            <a href="selecteur.html" title="selecteur">Selecteur</a>
+            <a href="image.html" title="Image">Image</a>
+            <a href="position.html" title="Position">Position</a>
+            <a href="zoning.html" title="Zoning">Zoning</a>
+            <a href="tableau.html" title="Tableau" >Tableau</a>
+            <a href="liste.html" title="Liste" class="active">Liste</a>
+            <a href="lien_menu.html" title="Lien&menu">Lien & menu</a>
+            <a href="formulaire.html" title="Formulaire">Formulaire</a>
+            <a href="multimedia.html" title="Multimédia">Multimédia</a>
+            <a href="animation.html" title="Animation">Animation</a>
+        </div>
+    </nav>
+    <main><!-- id main -->
+       <h2>Un tableau</h2>
+       <section>
+        <h3>Les listes ul</h3>
+        <ul class="fruit">
+            <li class="fruit" ><i class="far fa-hand-spock" aria-hidden="true"></i> Orange</li>
+            <li><i class="far fa-hand-spock" aria-hidden="true"></i> Fraise</li>
+            <li><i class="far fa-hand-spock" aria-hidden="true"></i> Poire</li>
+        </ul>
+        <h3>liste impriquées</h3>
+        <ul class="imbriquee"> 
+            <li class="europe"> europe
+                <ul>
+                    <li>France</li>
+                    <li>Italie</li>
+                    <li>Espagne</li>
+                    <li>Allemagne</li>
+                    <li>Malte</li>
+                </ul>
+            </li>
+            <li class="asie">Asie
+                <ul class="imbriquee">
+                    <li>Japon</li>
+                    <li>Vietnam</li>
+                    <li>Chine</li>
+                    <li>Laos</li>
+                    <li>Corée</li>
+                    
+                </ul>
+            </li>
+        </ul>
+    </section>
+    </main><!-- fin id main -->
+    <footer>
+ 
+    </footer>
+</body>
+</html>

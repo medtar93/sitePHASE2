@@ -315,5 +315,488 @@ footer div{
     background: green;
     margin: 0 auto;
     width: 25%;
-    display: inline-block;
  }
+.float{
+    height: 170px;
+    width: 170px;
+    background: #FFf1A8;
+    margin: 10px;
+    padding-top: 2px; 
+    text-align: center;
+    font-size: 25px;
+    background: #f8D771;
+    border: 2px solid darkred;
+    float: left;
+}
+.dernier{
+    height: 170px;
+    width: 170px;
+    background: #FFf1A8;
+    margin: 10px;
+    padding-top: 2px; 
+    text-align: center;
+    font-size: 25px;
+    background: #f8D771;
+    border: 2px solid darkred;
+}
+.zone{
+    height: 70px;
+    background:#333;
+}
+.zone1, .zone2, .zone3, .zone4{
+    height: 250px;
+    width: 25%;
+    float: left;
+}
+.zone1{
+    background:#2d5c7f;
+}
+.zone2{
+    background:#FFf1A8;
+}
+.zone3{
+    background:#FF8F56;
+}
+.zone4{
+    background:#984A59;
+}
+.flex{
+    display: flex;
+}
+.flex div{
+    width: 150px;
+    height: 150px;
+    background: #a6d6d3;
+    text-align: center;
+    font-size: 24px;
+}
+
+/* la page des zoning */
+
+/* zoning 1 */
+#zoning1{
+    background: #333;
+    width: 800px;
+    text-align: center;
+    margin: auto;
+}
+
+#zoning1 header{
+    height: 70px;
+    background: #fff1a8;
+}
+
+#zoning1 aside{
+    height: 525px;
+    width: 20%;
+    float: left;
+    background: #3da134;
+}
+
+#zoning1 section{
+    height: 525px;
+    width: 80%;
+    float: left;
+    margin: 0;
+    padding: 0;
+}
+
+/* zoning 2 */
+#zoning2{
+    background: #db6a00;
+    width: 500px;
+    text-align: center;
+    margin: auto;
+}
+
+#zoning2 header{
+    height: 70px;
+    background: #fff1a8;
+}
+
+#zoning2 aside{
+    height: 525px;
+    width: 20%;
+    float: left;
+}
+
+#zoning2 .middle{
+    width: 60%;
+    margin: 0;
+    padding: 0;
+    float: left;
+}
+
+/* zoning 3 */
+#zoning3{
+    width: 800px;
+    margin: auto;
+    text-align: center;
+}
+
+#zoning3 section{
+    border: 1px solid #000; 
+    height: 525px;
+    width: 50%;
+    background: #00a5fd;
+    float: left;
+}
+
+#zoning3 footer{
+    width: 800px;
+    float: left;
+    height: 50px;
+    text-align: center;
+}
+
+/* Zoning 4 */
+#zoning4{
+    width: 700px;
+    background: #fff;
+    text-align: center;
+    margin: auto;
+}
+
+#zoning4 header{
+    height: 100px;
+    background: #0d9e00;
+}
+
+#zoning4 nav{
+    height: 50px;
+    border: inherit;   
+}
+
+#zoning4 section{
+    height: 500px;
+    margin: 20px;
+    background: #0043fa;
+    padding: 0%;
+}
+
+#zoning4 footer{
+    height: 50px;
+    background: #ffb22d;
+}
+
+/* zoning 5 */
+#zoning5{
+    background: tomato;
+    margin: 0 auto;
+    border: thin solid #800075;
+    text-align: center;
+}
+
+#zoning5 header{
+    height: 100px;
+    background: #5900fd;
+}
+
+#zoning5 nav{
+    height: 50px;
+    background: #0fb8c4;
+    border-bottom: 8px solid #0043fa;
+}
+
+#zoning5 section{
+    padding: 0;
+    margin: 20px;
+    background: #9900ff;
+}
+
+#zoning5 .section .z1,.z2, .z3, .z4{
+    width: 50%;
+    height: 250px;
+    float: left;
+}
+
+#zoning5 .section .z1,.z2, .z3, .z4 p{
+    line-height: 250px;
+}
+
+#zoning5 .section .z1,.z4{
+    background: #0382f8;
+}
+
+#zoning5 footer{
+    height: 50px;
+    background: #0043fa;
+}
+
+/* zoning 5 */
+#zoning6{
+    width: 800px;
+    margin: 0 auto;
+    color: #fff;
+    text-align: center;
+}
+
+#zoning6 header{
+    width: 800px;
+    margin: 0 auto;
+}
+
+.haut1{
+    width: 25%;
+    float: left;
+    height: 100%;
+    background: #691515dd;
+}
+
+.haut2{
+    width: 50%;
+    float: left;
+    height: 100%;
+    background: #00d6b3dd;
+}
+
+#zoning6 nav{
+    height: 100px;
+    border: inherit;
+}
+
+#zoning6 aside{
+    width: 25%;
+    float: left;
+    background: thistle;
+    height: 700px;
+}
+
+#zoning6 section{
+    float: left;
+    width: 75%;
+    background: #00b7ffdd;
+    padding: 0;
+    margin: 0;
+}
+
+#zoning6 .a{
+    height: 250px;
+    background: #db6a00;
+    float: left;
+    width: 50%;
+}
+
+#zoning6 .b{
+    height: 250px;
+    background: #00db12;
+    float: left;
+    width: 50%;
+}
+
+#zoning6 .diaporama{
+    height: 250px;
+    background: #1900fd;
+}
+
+#zoning6 .c, .d, .e, .f{
+    height: 200px;
+    float: left;
+    width: 25%;
+}
+
+#zoning6 .c, .e{
+    background: #0043fa;
+}
+
+/* page tableau */
+
+.tableau table{
+    border-collapse: collapse;
+    border: 2px solid #000;
+    margin: auto;
+    width: 80%;
+    padding: 5px;
+}
+
+.tableau td{
+    border: 2px solid #000;
+    padding: 5px;
+    text-align: left;
+    vertical-align: middle;
+}
+
+.tableau thead, .tableau tfoot{
+    background: #00a5fd;
+    border: 5px solid #000ba1;
+    text-align: center;
+}
+
+/* page liste */
+ul.fruit{
+    list-style: none;
+}
+
+ul.fruit li{
+    display: inline;
+    margin: 15px;
+}
+
+li .far{
+    font-size: 90%;
+    color: #0f1013;
+}
+
+li .far:hover{
+    font-size: 150%;
+    color: #0f1013;
+}
+ .imbriquee, .imbriquee ul {
+    padding-left: 15px;
+ }
+.imbriquee{
+    cursor: pointer;
+}
+.imbriquee ul{
+    display: none;
+}
+.europe:hover ul, .asie:hover ul{
+    display: block;
+}
+.imbriquee li ul li:hover{
+    font-size: 200%;
+    background:#00a5fd;
+    display: inline;
+    box-shadow: greenyellow 5px 10px 10px; 
+}
+
+/* la page lien et menu */
+
+.ancre{
+    text-align: center;
+    padding: 30px;
+}
+.ancre a{
+    margin: 8px;
+   padding: 5px 10px;
+   border-radius: 15px;
+   background:  #2c3e50;
+   color: white;
+   text-decoration: none;
+   font-size: 20px;
+   box-shadow: 0px 0px 10px 3px black;
+}
+.ancre a:hover{
+    box-shadow: none;
+    transition-duration: 0.5s;
+    text-shadow: 1px 5px 10px gray;
+}
+#lien a{
+    display: block;
+}
+
+/* la nav dans #menu */
+#menu nav{
+    background: transparent;
+    border: none;
+}
+#menu ul li{
+    display: inline-block;
+}
+#menu nav a{
+    padding: 10px;
+    color: #333;
+}
+/* le menu avec les menus déroulants */
+#menuDeroulant{
+    height: 650px;
+}
+#menuDeroulant nav{
+    background: transparent;
+    border: none;
+    width: 90%;
+    margin: 0 auto;
+}
+#menuDeroulant nav ul li {
+    float: left;
+    list-style: none;
+    width: 20%;
+}
+#menuDeroulant ul ul{
+    display: none;
+}
+#menuDeroulant nav ul li ul li{
+    border-top: 1px solid #464646;
+    width: 100%;
+}
+#menuDeroulant nav li{
+    background: #ccc;
+}
+#menuDeroulant nav li a{
+    display: block;
+    padding: 4px 0 4px;
+}
+#menuDeroulant ul{
+    text-align: center;
+}
+#menuDeroulant nav ul.niveau1 li.sousMenu:hover ul.niveau2{
+    display: block;
+}
+
+/* la page formulaire */
+
+form{
+    width: 80%;
+    margin: 0 auto;
+    background: gainsboro;
+    color: #464646;
+    border-radius: 20px;
+}
+
+label{
+    margin: 20px 10px;    
+}
+textarea{
+    resize: none;
+}
+#password{
+    margin-left: -1px;
+}
+#prenom{
+    margin-left: 37px;
+}
+#pseudo{
+    margin-left: 33px;
+}
+label[for="orange"]{
+     background: orange; 
+}
+label[for="fraise"]{
+    background: red; 
+}
+label[for="kiwi"]{
+    background: green; 
+}
+label[for="cerise"]{
+    background: radial-gradient(red,pink); 
+}
+
+/* la page des videos */
+.videoFond{
+    padding-left: 0;
+    padding-right: 0;
+}
+.videoFond video{
+    position: absolute;
+    width: 100%;
+    z-index: 1; /* https://www.alsacreations.com/astuce/lire/84-Comment-fonctionne-la-propriete-CSS-z-index-.html */
+}
+.videoTexte{
+    position: relative;
+    width: 100%;
+    height: 500px;
+}
+.videoFond p{
+    position: absolute;
+    z-index: 2;
+    width: 500px;
+    margin: auto;
+    background: rgba(255, 255, 255, 0.60);
+    left: 250px;
+    top: 150px;
+    padding: 20px;
+    font-size: 120%;
+    border-radius: 15px;
+
+
+}

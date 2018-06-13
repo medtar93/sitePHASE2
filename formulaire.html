@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <!-- la description qui s'affiche sur un résultat de la recherche  -->
+    <meta name="description" content="Site de la phase 2 Tarek Benkherouf 2018/2019 PANTIN LePoleS">
+    <!-- les mots clefs utiles pour les moteurs de recherches (moins utilisées de nos jours ) -->
+    <meta name="keywords" content="HTML, CSS, tarek benkherouf, lepols, pantin">
+    <!-- l'auteur de la page  -->
+    <meta name="author" content=" Tarek Benkherouf">
+    <title> Site PHASE2 - acceuil</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css?family=Anton|Lemonada:600|Oswald" rel="stylesheet"> 
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
+</head>
+<body>
+  
+    <header>
+        <div id="logo"> <!-- début div #logo -->
+            <a href="#logo">
+                <button type="button"><i class="fas fa-arrow-circle-up"
+                    aria-hidden="true"></i></button>
+            </a>
+            <img src="img/logo.png" alt="logoHTML/CSS">
+
+        </div> <!-- fin div #logo -->
+        <div id="slogan"> <!--  début div #slogan -->
+        <a href="index.html" title="mon premier en html acceuil 1"> <h1>Mon site en HTML 5 CSS 3</h1></a>
+        </div><!--  fin div #slogan -->
+        <div id="social"> <!-- début div #social -->
+            <a href="https://www.instagram.com/?hl=fr" target="_blank" aria-hidden="true"><i class="fab fa-instagram"></i></a>
+            <a href="https://fr-fr.facebook.com/" target="_blank"><i class="fab fa-facebook" aria-hidden="true"></i></a>
+            <div class="clear"></div>
+        </div><!-- fin div #social -->
+    </header>
+    <nav id="ancreNav"> <!-- début nav #ancreNav -->
+        <a href="index.html" title="Acceuil" class="active">Acceuil</a>
+        <a href="texte.html" title="Texte">Texte</a>
+        <a href=" selecteur.html" title="Selecteur">Selecteur</a>
+        <a href="image.html" title="Image">Image</a>
+        <a href="position.html" title="Position">Position</a>
+        <a href=" zoning.html" title="Zoning">Zoning</a>
+        <a href="tableau.html" title="Tableau">Tableau</a>
+        <a href="liste.html" title="Liste">Liste</a>
+        <a href="lien_menu.html" title="Lien et Menu">Lien et Menu</a>
+        <a href="formulaire.html" title="Formulaire">Formulaire</a>
+        <a href="multimedia.html" title="Multimedia">Multimedia</a>
+        <a href="animation.html" title="Animation">Animation</a>
+    </nav><!-- fin nav #ancreNav -->
+    <main> <!-- début main / contenu principale -->
+        <h2>Formulaire</h2>
+        <section class="formulaire">
+            <!-- method; manière de faire circuler les données (POST ou GET) -->
+            <!-- action; url de destination -->
+            <!-- enctype; pour envoyer le fichier correctement -->
+            <form method="POST" action="inscription.php" enctype="multipart/form-data">
+                <label for="pseudo">Pseudo*</label>
+                <input type="text" id="pseudo" name="pseudo" required><br>
+                <label for="prenom">Prénom</label>
+                <input type="text" id="prenom" name="prenom" requiered><br>
+                <label for="password">Mots de passe</label>
+                <input type="password" id="password" name="password"><br>
+                <label for="cv">Votre CV en .pdf</label>
+                <input type="file" id="cv" name="cv">
+
+                <p>Quels sont vos fruits préférées ?</p>
+                <label for="orange">Orange</label>
+                <input type="checkbox" id="orange" value="orange">
+                <label for="fraise">Fraise</label>
+                <input type="checkbox" id="fraise" value="fraise">
+                <label for="kiwi">Kiwi</label>
+                <input type="checkbox" id="kiwi" value="kiwi">
+                <label for="cerise">Cerise</label>
+                <input type="checkbox" id="cerise" value="cerise"><br>
+                 <label for="legume">Si vous devez sauver un légume de la destruction; lequel ?</label>
+                 <select name="legume">
+                     <option value=" poireaus">poireau</option>
+                     <option value="choux_de_bruxelle">choux de Bruxelle</option>
+                     <option value=" céleri">céleri</option>
+                 </select><br>
+                <label for="message">Message</label>
+                <textarea type="checkbox" id="message" rows="5"></textarea><br>
+                <input type="submit" name="envoyer" value="Envoyer">
+                <input type="reset" name="annuler" value="Annuler">
+            </form>
+        </section>
+    </main> <!-- fin main -->
+        <footer>sisi la fafa</footer>  
+</body>
+</html>
