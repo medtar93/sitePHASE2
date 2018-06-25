@@ -1,0 +1,47 @@
+@charset "utf-8";
+
+ /* POUR AVOIR UNE NAVBAR FIXE  */
+body{
+    background: red;
+}
+.navbar{
+    background: olive;
+    position: fixed; 
+    top: 0;
+    width: 100%;
+    left: 0;
+    height: 60px;
+}
+
+.navbar a{
+    color: white;
+    text-align: center;
+    display: block;
+    float: right;
+    padding: 20px 10px;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+.navbar a:hover{
+    color: crimson;
+    background: rgba(47, 47, 226, 0.49);
+}
+.main{
+    height: 2000px;
+    margin-top: 60px;
+  
+}
+.logo{
+    float: left;
+    position: fixed;
+    top: 0;
+    z-index: 1;
+    padding: 20px 10px;
+    background: white;
+ 
+}
+.logo a{
+
+    text-decoration: none;
+    text-transform: uppercase;
+}
