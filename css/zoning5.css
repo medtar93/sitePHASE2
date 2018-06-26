@@ -1,0 +1,173 @@
+@charset "utf-8";
+
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, <h4>, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+/* FIN RESET ERIC MEYER */
+
+
+body{
+    background:pink;
+    /* font-family: 'Pacifico', cursive; */
+}
+p{
+    font-family: 'Pacifico', cursive
+}
+h4 , a{
+    font-family: 'Press Start 2P', cursive;
+}
+a{
+    color: black;
+    text-decoration: none;
+    margin-left: 10%;
+    margin-top: 10%;
+}
+a h1{
+    font-size: 620%;
+    position: relative;
+    top: -102px;
+    left: -161px;
+}
+
+header{
+    background: #add9e6;
+    position: fixed; 
+    top: 0;
+    width: 100%;
+    left: 0;
+    height: 100px;
+}
+.gauche{
+    float: left;
+}
+.droite{
+    padding-top: 45px;
+    float: right;
+    width: 50%;
+}
+.droite a{
+    font-size: 15px;
+}
+
+.clear{
+    clear: both;
+}
+#container{ 
+    background: #22ad95;
+    margin: auto;
+    width: 70%;
+    height: auto;
+    padding: 15px 10px 20px 10px;
+    margin-top: 130px;
+    margin-bottom:30px;
+}
+.fond_blanc{
+    background: white;
+    width: 100%;
+    height: auto;
+    padding: 10px 0 10px 0;
+}
+.orange{
+    background: orange;
+    margin: 15px 15px 15px 15px;
+}
+.violette{
+    background: #cea1f2;
+    margin: 15px 15px 15px 15px;
+}
+aside{ /* contenneur du formulaire contenu dans la div.violette */
+    margin-left: 20%;
+    width: 150px;
+    height: 100px;
+    float: left;
+    font-family: 'Domine', serif;
+
+}
+.rouge{
+    background: red;
+    margin: 15px 15px 15px 15px;
+}
+figure{ /* contenu de la div.violette */
+    float: left;
+    width: 300px;
+    margin-left: 10%;
+}
+div.img figure figcaption{/* style de la legende de l'image dans la div violette*/
+    width: 190px;
+    background: white;
+    color: black;
+    font-family: 'Pacifico', cursive;
+    font-family: 'Shrikhand', cursive;
+    text-align: center;
+}
+div.gauche{
+    width: 300px;
+}
+div.gauche figure figcaption{/* style de la legende de l'image dans la div rouge */
+    width: 400px;
+    background: white;
+    color: black;
+    font-family: 'Pacifico', cursive;
+    font-family: 'Shrikhand', cursive;
+    text-align: center;
+}
+.prouge{/* contenu de la div.rouge */
+    width: 40%;
+    float: left;
+    margin-left: 33%;
+}
+footer{
+    background: #add9e6;
+    font-family: 'Pacifico', cursive
+    position: fixed; 
+    bottom: 0;
+    width: 100%;
+    left: 0;
+    height: 40px;
+    text-align: center;
+}
