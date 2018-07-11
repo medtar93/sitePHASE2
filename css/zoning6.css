@@ -1,0 +1,58 @@
+@charset "utf-8";
+body{
+    background: pink;
+}
+main{
+    background: white;
+    margin: auto;
+    border: 1px solid black;
+    width: 960px;
+}
+header{
+    background: #C0Cf16;
+    width: 950px;
+    height: 100px;
+    margin: 5px;
+}
+nav{
+    background: #62B134;
+    width: 950px;
+    height: 100px;
+    margin: 0 5px 0px 5px ;
+}
+.boite{
+  
+    width: 960px;
+    
+}
+article{
+    background: #019642;
+    float: left;
+    height: 305px;
+    width: 310px;
+    margin: 5px 5px 0 5px;
+ 
+
+}
+.centre{
+float: left;
+margin: auto;
+width: 320px;
+}
+aside{
+    background: #009679;
+    margin: 5px 0 5px 0;
+    height: 150px;
+    /* width: 310px; */
+}
+.clear{
+    clear: both;
+}
+footer{
+    background: #019aac;
+    width: 950px;
+    height: 75px;
+    margin: auto;
+    margin-bottom: 5px;
+}
+
